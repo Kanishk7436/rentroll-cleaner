@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+*.pyc
+
+# Excel temporary lock files
+~$*.xlsx
+
+# Real / confidential rent roll files — never commit these
+*.xlsx
+!sample_rent_roll.xlsx
+
+# Generated outputs
+*_Organized.xlsx
+*_Validated.xlsx
+*_FINAL*.xlsx
+*_CLEAN*.xlsx
+*_FULL*.xlsx
+validation_report*.txt
+*.zip
+
+# macOS
+.DS_Store
